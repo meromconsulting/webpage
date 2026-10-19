@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>צור קשר | מירום שירותי ייעוץ</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="[suspicious link removed]" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <div class="brand-logo">
+        <span class="brand-title">Merom Consulting</span>
+        <span class="brand-subtitle">מירום שירותי ייעוץ מס</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">דף הבית</a></li>
+          <li><a href="about.html">אודות</a></li>
+          <li><a href="services.html">תחומי מומחיות</a></li>
+          <li><a href="clients.html">לקוחות</a></li>
+          <li><a href="contact.html" class="active btn-contact">צור קשר</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding: 3.5rem 2rem;">
+    <div class="hero-content">
+      <h1>יצירת קשר</h1>
+      <p>נשמח לעמוד לרשותכם בליווי מקצועי, אישי ומותאם לצורכי החברה שלכם</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>פרטי התקשרות ישירים</h3>
+        <p style="margin-bottom: 2rem; color: var(--text-muted);">הייעוץ במשרד ניתן באופן אישי וישיר על ידי גלעד מירום, עו"ד ורו"ח.</p>
+        
+        <div class="info-item">
+          <span class="info-label">איש קשר:</span>
+          <span class="info-val">גלעד מירום, עו"ד ורו"ח</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">טלפון נייד:</span>
+          <a href="tel:0542661328" class="info-val">054-2661328</a>
+        </div>
+        <div class="info-item">
+          <span class="info-label">דואר אלקטרוני:</span>
+          <a href="mailto:GiladMerom@Gmail.com" class="info-val">GiladMerom@Gmail.com</a>
+        </div>
+        <div class="info-item">
+          <span class="info-label">תחומי פעילות:</span>
+          <span class="info-val">ישראל, ארה"ב וזירה בינלאומית</span>
+        </div>
+      </div>
+
+      <div>
+        <form class="contact-form" action="#" method="post" onsubmit="event.preventDefault(); alert('הפנייה נשלחה בהצלחה!');">
+          <div class="form-group">
+            <label for="name">שם מלא:</label>
+            <input type="text" id="name" required placeholder="ישראל ישראלי">
+          </div>
+          <div class="form-group">
+            <label for="company">שם החברה / ארגון:</label>
+            <input type="text" id="company" placeholder="שם החברה">
+          </div>
+          <div class="form-group">
+            <label for="email">דוא"ל:</label>
+            <input type="email" id="email" required placeholder="yourname@domain.com">
+          </div>
+          <div class="form-group">
+            <label for="phone">טלפון:</label>
+            <input type="tel" id="phone" placeholder="050-0000000">
+          </div>
+          <div class="form-group">
+            <label for="message">תוכן הפנייה:</label>
+            <textarea id="message" rows="4" placeholder="נא לפרט בקצרה את נושא הפנייה..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="border: none; cursor: pointer; font-size: 1.1rem; margin-top: 0.5rem;">שליחת הודעה</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="brand-logo" style="text-align: right;">
+        <span class="brand-title" style="color: var(--white);">Merom Consulting</span>
+        <span class="brand-subtitle">מירום שירותי ייעוץ מס</span>
+      </div>
+      <div class="footer-nav">
+        <a href="index.html">דף הבית</a>
+        <a href="about.html">אודות</a>
+        <a href="services.html">תחומי מומחיות</a>
+        <a href="clients.html">לקוחות</a>
+        <a href="contact.html">צור קשר</a>
+      </div>
+    </div>
+    <p>© 2026 מירום שירותי ייעוץ | גלעד מירום, עו"ד ורו"ח</p>
+  </footer>
+
+</body>
+</html>
